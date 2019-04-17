@@ -1,0 +1,67 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "TranslateSpec",
+    "description": "wrapper for google translate",
+    "version": "1"
+  },
+  "basePath": "/translate",
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/translate": {
+      "post": {
+        "parameters": [
+          {
+            "x-amf-mediaType": "application/json",
+            "in": "body",
+            "name": "generated",
+            "schema": {
+              "type": "object",
+              "required": [
+                "target",
+                "text"
+              ],
+              "properties": {
+                "target": {
+                  "description": "Property description",
+                  "example": "Example",
+                  "type": "string"
+                },
+                "text": {
+                  "description": "Property description",
+                  "example": "Example",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "x-amf-mediaType": "application/json",
+            "schema": {
+              "type": "object",
+              "required": [
+                "translation"
+              ],
+              "properties": {
+                "translation": {
+                  "description": "Property description",
+                  "example": "Example",
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
