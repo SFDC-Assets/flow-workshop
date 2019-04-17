@@ -1,0 +1,1 @@
+sfdx force:data:soql:query -q "select name, abbreviation__c, description__c, format__c, maximum_enrollment__c from Course__c" -r csv > data/courses.csv
