@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>Maximum Enrollment</label>
+    <type>Number</type>
+    <fullName>Maximum_Enrollment__c</fullName>
+    <scale>0</scale>
+    <precision>18</precision>
+</CustomField>
