@@ -29,13 +29,13 @@
               ],
               "properties": {
                 "target": {
-                  "description": "Property description",
-                  "example": "Example",
+                  "description": "the language you want to translate into",
+                  "example": "es",
                   "type": "string"
                 },
                 "text": {
-                  "description": "Property description",
-                  "example": "Example",
+                  "description": "the text that you want translated",
+                  "example": "Hello, World",
                   "type": "string"
                 }
               }
@@ -53,8 +53,8 @@
               ],
               "properties": {
                 "translation": {
-                  "description": "Property description",
-                  "example": "Example",
+                  "description": "translation of the text you submitted",
+                  "example": "¡Hola Mundo!",
                   "type": "string"
                 }
               }
