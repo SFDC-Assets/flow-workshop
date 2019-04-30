@@ -45,6 +45,11 @@
         <editable>true</editable>
         <field>Translation__c.Description__c</field>
     </fieldPermissions>
+    <fieldPermissions>
+        <readable>true</readable>
+        <editable>true</editable>
+        <field>Translation__c.Language_Code__c</field>
+    </fieldPermissions>
     <tabSettings>
         <tab>Course__c</tab>
         <visibility>Visible</visibility>

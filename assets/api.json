@@ -5,7 +5,6 @@
     "description": "wrapper for google translate",
     "version": "1"
   },
-  "basePath": "/translate",
   "produces": [
     "application/json"
   ],
