@@ -67,6 +67,7 @@
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Language_Code__c</fields>
         <fields>Description__c</fields>
         <fields>CREATED_DATE</fields>
         <relatedList>Translation__c.Course__c</relatedList>
@@ -98,7 +99,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0S000000fxjP</masterLabel>
+        <masterLabel>00h54000000gaSP</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
