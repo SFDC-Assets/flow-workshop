@@ -1,5 +1,6 @@
 {
-  "orgName": "flow-workshop",
+  "orgName": "workshops",
+  "description": "flow",
   "edition": "Developer",
   "settings": {
     "orgPreferenceSettings": {
