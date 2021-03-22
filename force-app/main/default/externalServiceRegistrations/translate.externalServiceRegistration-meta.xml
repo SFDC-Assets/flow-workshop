@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExternalServiceRegistration xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>translate</label>
+    <namedCredential>googletranslate</namedCredential>
+    <schema>{
+  &quot;swagger&quot;: &quot;2.0&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;TranslateSpec&quot;,
+    &quot;description&quot;: &quot;wrapper for google translate&quot;,
+    &quot;version&quot;: &quot;1&quot;
+  },
+  &quot;produces&quot;: [
+    &quot;application/json&quot;
+  ],
+  &quot;schemes&quot;: [
+    &quot;http&quot;,
+    &quot;https&quot;
+  ],
+  &quot;paths&quot;: {
+    &quot;/translate&quot;: {
+      &quot;post&quot;: {
+        &quot;parameters&quot;: [
+          {
+            &quot;x-amf-mediaType&quot;: &quot;application/json&quot;,
+            &quot;in&quot;: &quot;body&quot;,
+            &quot;name&quot;: &quot;generated&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;required&quot;: [
+                &quot;target&quot;,
+                &quot;text&quot;
+              ],
+              &quot;properties&quot;: {
+                &quot;target&quot;: {
+                  &quot;description&quot;: &quot;the language you want to translate into&quot;,
+                  &quot;example&quot;: &quot;es&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                },
+                &quot;text&quot;: {
+                  &quot;description&quot;: &quot;the text that you want translated&quot;,
+                  &quot;example&quot;: &quot;Hello, World&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;&quot;,
+            &quot;x-amf-mediaType&quot;: &quot;application/json&quot;,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;object&quot;,
+              &quot;required&quot;: [
+                &quot;translation&quot;
+              ],
+              &quot;properties&quot;: {
+                &quot;translation&quot;: {
+                  &quot;description&quot;: &quot;translation of the text you submitted&quot;,
+                  &quot;example&quot;: &quot;¡Hola Mundo!&quot;,
+                  &quot;type&quot;: &quot;string&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}</schema>
+    <schemaType>OpenApi</schemaType>
+    <schemaUrl>/schema</schemaUrl>
+    <status>Complete</status>
+</ExternalServiceRegistration>
