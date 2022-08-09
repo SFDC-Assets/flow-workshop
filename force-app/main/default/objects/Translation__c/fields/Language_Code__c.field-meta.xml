@@ -13,29 +13,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>af</fullName>
-                <default>false</default>
-                <label>Afrikaans</label>
-            </value>
-            <value>
                 <fullName>sq</fullName>
                 <default>false</default>
                 <label>Albanian</label>
-            </value>
-            <value>
-                <fullName>ar</fullName>
-                <default>false</default>
-                <label>Arabic</label>
-            </value>
-            <value>
-                <fullName>eu</fullName>
-                <default>false</default>
-                <label>Basque</label>
-            </value>
-            <value>
-                <fullName>bs</fullName>
-                <default>false</default>
-                <label>Bosnian</label>
             </value>
             <value>
                 <fullName>ca</fullName>
@@ -43,24 +23,9 @@
                 <label>Catalan</label>
             </value>
             <value>
-                <fullName>zh</fullName>
-                <default>false</default>
-                <label>Chinese</label>
-            </value>
-            <value>
                 <fullName>nl</fullName>
                 <default>false</default>
                 <label>Dutch</label>
-            </value>
-            <value>
-                <fullName>en</fullName>
-                <default>false</default>
-                <label>English</label>
-            </value>
-            <value>
-                <fullName>fi</fullName>
-                <default>false</default>
-                <label>Finnish</label>
             </value>
             <value>
                 <fullName>fr</fullName>
@@ -73,11 +38,6 @@
                 <label>Galician</label>
             </value>
             <value>
-                <fullName>hi</fullName>
-                <default>false</default>
-                <label>Hindi</label>
-            </value>
-            <value>
                 <fullName>ga</fullName>
                 <default>false</default>
                 <label>Irish</label>
@@ -86,41 +46,6 @@
                 <fullName>it</fullName>
                 <default>false</default>
                 <label>Italian</label>
-            </value>
-            <value>
-                <fullName>ja</fullName>
-                <default>false</default>
-                <label>Japanese</label>
-            </value>
-            <value>
-                <fullName>ko</fullName>
-                <default>false</default>
-                <label>Korean</label>
-            </value>
-            <value>
-                <fullName>ku</fullName>
-                <default>false</default>
-                <label>Kurdish</label>
-            </value>
-            <value>
-                <fullName>ne</fullName>
-                <default>false</default>
-                <label>Nepali</label>
-            </value>
-            <value>
-                <fullName>no</fullName>
-                <default>false</default>
-                <label>Norwegian</label>
-            </value>
-            <value>
-                <fullName>ps</fullName>
-                <default>false</default>
-                <label>Pashto/Pushto</label>
-            </value>
-            <value>
-                <fullName>fa</fullName>
-                <default>false</default>
-                <label>Persian (Farsi)</label>
             </value>
             <value>
                 <fullName>pl</fullName>
@@ -143,19 +68,9 @@
                 <label>Russian</label>
             </value>
             <value>
-                <fullName>sk</fullName>
-                <default>false</default>
-                <label>Slovak</label>
-            </value>
-            <value>
                 <fullName>es</fullName>
                 <default>false</default>
                 <label>Spanish</label>
-            </value>
-            <value>
-                <fullName>sw</fullName>
-                <default>false</default>
-                <label>Swahili (Kiswahili)</label>
             </value>
             <value>
                 <fullName>sv</fullName>
@@ -163,33 +78,141 @@
                 <label>Swedish</label>
             </value>
             <value>
+                <fullName>af</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Afrikaans</label>
+            </value>
+            <value>
+                <fullName>ar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Arabic</label>
+            </value>
+            <value>
+                <fullName>eu</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Basque</label>
+            </value>
+            <value>
+                <fullName>bs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bosnian</label>
+            </value>
+            <value>
+                <fullName>zh</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chinese</label>
+            </value>
+            <value>
+                <fullName>en</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>English</label>
+            </value>
+            <value>
+                <fullName>fi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finnish</label>
+            </value>
+            <value>
+                <fullName>hi</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hindi</label>
+            </value>
+            <value>
+                <fullName>ja</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Japanese</label>
+            </value>
+            <value>
+                <fullName>ko</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Korean</label>
+            </value>
+            <value>
+                <fullName>ku</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kurdish</label>
+            </value>
+            <value>
+                <fullName>ne</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nepali</label>
+            </value>
+            <value>
+                <fullName>no</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Norwegian</label>
+            </value>
+            <value>
+                <fullName>ps</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pashto/Pushto</label>
+            </value>
+            <value>
+                <fullName>fa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Persian (Farsi)</label>
+            </value>
+            <value>
+                <fullName>sk</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Slovak</label>
+            </value>
+            <value>
+                <fullName>sw</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Swahili (Kiswahili)</label>
+            </value>
+            <value>
                 <fullName>ta</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Tamil</label>
             </value>
             <value>
                 <fullName>th</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Thai</label>
             </value>
             <value>
                 <fullName>bo</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Tibetan</label>
             </value>
             <value>
                 <fullName>tr</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Turkish</label>
             </value>
             <value>
                 <fullName>xh</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Xhosa</label>
             </value>
             <value>
                 <fullName>zu</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Zulu</label>
             </value>
         </valueSetDefinition>
