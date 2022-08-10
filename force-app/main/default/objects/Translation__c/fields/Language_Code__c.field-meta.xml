@@ -78,6 +78,16 @@
                 <label>Swedish</label>
             </value>
             <value>
+                <fullName>uk</fullName>
+                <default>false</default>
+                <label>Ukranian</label>
+            </value>
+            <value>
+                <fullName>my</fullName>
+                <default>false</default>
+                <label>Burmese</label>
+            </value>
+            <value>
                 <fullName>af</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
@@ -104,7 +114,6 @@
             <value>
                 <fullName>zh</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Chinese</label>
             </value>
             <value>
@@ -168,9 +177,8 @@
                 <label>Persian (Farsi)</label>
             </value>
             <value>
-                <fullName>sk</fullName>
+                <fullName>sl</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Slovak</label>
             </value>
             <value>
@@ -194,7 +202,6 @@
             <value>
                 <fullName>bo</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Tibetan</label>
             </value>
             <value>
