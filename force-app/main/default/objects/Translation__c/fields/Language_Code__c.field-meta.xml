@@ -83,7 +83,7 @@
                 <label>Ukranian</label>
             </value>
             <value>
-                <fullName>my</fullName>
+                <fullName>mya</fullName>
                 <default>false</default>
                 <label>Burmese</label>
             </value>
@@ -112,7 +112,7 @@
                 <label>Bosnian</label>
             </value>
             <value>
-                <fullName>zh</fullName>
+                <fullName>zho</fullName>
                 <default>false</default>
                 <label>Chinese</label>
             </value>
@@ -200,7 +200,7 @@
                 <label>Thai</label>
             </value>
             <value>
-                <fullName>bo</fullName>
+                <fullName>bod</fullName>
                 <default>false</default>
                 <label>Tibetan</label>
             </value>
